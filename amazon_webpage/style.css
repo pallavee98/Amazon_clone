@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.flex{
+    display: flex;
+}
+
+.navbar{
+    height:80px;
+    background-color: #0f1111;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 70px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo{
+    /* text-align: center; */
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    background-size: cover;
+    width:100%
+}
+
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+
+/* box2 */
+.add-first{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+   font-size: 1rem;
+   margin-left: 3px;
+}
+.add-icon{
+    align-items: center;
+}
+/* box3 */
+.nav-search{
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: greenyellow;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border:2px solid orange
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:10% ;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none
+}
+.search-input{
+    
+   
+    border: none;
+    
+    width:100%;
+    font-size:1rem ;
+}
+
+.search-icons{
+    background-color: orange;
+    width: 10%;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color:white
+}
+/* box4 */
+span{
+   font-size:0.7rem;
+
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-singin{
+    padding: 4px;
+}
+.nav-cart{
+    padding:4px;
+}
+/* box6 */
+.nav-cart i{
+ font-size: 30px;
+}
+
+/* panel Styling */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-ops{
+    /* justify-content: space-evenly; */
+    width: 70%;
+    font-size: 0.85rem;
+
+
+}
+.panel-ops p{
+    margin:14px
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.padding{
+    padding: 6px;
+}
+
+.absolute{
+    position: relative;
+}
+
+/* hero-section */
+.hero-section{
+    background-image: url(banner.jpg);
+    height:400px;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+
+
+
+}
+
+.hero-message{
+    background-color: white;
+    color:black;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 96%;
+    margin-bottom: 48px;
+}
+/* content ---box -- */
+
+.shop-section{
+    justify-content: space-evenly;
+    /* background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);; */
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    /* border :2px solid black; */
+    width: 20%;
+    height: 400px;
+    margin:18px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    border-radius: 4px;
+}
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box-image{
+    height:300px;
+    margin:8px;
+    background-size: cover;
+    }
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer{
+    margin-top: 4px;
+    background-color: black;
+}
+.foot-panel1{
+    justify-content: center;
+    align-items: center;
+    height:28px;
+    padding: 8px;
+    background-color: #265073;
+    color: white;
+
+}
+.foot-panel1:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.foot-panel2{
+    padding: 19px;
+    color: white;
+    justify-content: space-around;
+    height: 350px;
+    align-items: center;
+}
+
+ul p{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.foot-panel3{
+    height: 250px;
+    color: white;
+}
